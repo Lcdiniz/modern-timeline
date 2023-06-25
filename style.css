@@ -63,6 +63,14 @@ p {
 	justify-content: center;
 }
 
+.timeline .timeline-box .icon img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 45px;
+	border-radius: 50%;
+}
+
 .timeline .timeline-box .timeline-body {
 background-color: #27293d;
 border-radius: 6px;
@@ -98,6 +106,19 @@ transition: all 0.5s ease;
 	font-size: 12px;
 	border-radius: 4px;
 	font-weight: bold;
+}
+
+.timeline .timeline-box .timeline-body .header-box {
+	margin-bottom: 20px;
+}
+
+.timeline .timeline-box .timeline-body .header-box #username {
+	font-size: 12px;
+	opacity: 0.7;
+}
+
+.timeline .timeline-box .timeline-body .header-box h4 {
+	display: inline;
 }
 
 .timeline .timeline-box .timeline-body .time {
